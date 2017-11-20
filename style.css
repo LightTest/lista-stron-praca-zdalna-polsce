@@ -21,6 +21,7 @@ span {
     font-variant: small-caps;
     color:dimgrey;
     text-shadow: 2px 3px 3px rgba(250,0,0,1);
+    font-size: 1.1rem;
 }
 
 h1 {
