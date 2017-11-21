@@ -76,11 +76,15 @@ box-shadow: 2px 10px 24px 6px rgba(0,0,0,0.75);
     vertical-align:text-bottom;
     text-align: center;
     border-radius: 50%;
-    background-color: whitesmoke;
+    background-color: yellow;
     font-size: 2rem;
     color: darkblue;
     counter-increment: thiscount;
     content: counter(thiscount);
+}
+
+cart:nth-child(4) {
+    counter-reset: thiscount;
 }
 
 
