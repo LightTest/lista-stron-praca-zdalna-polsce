@@ -13,8 +13,8 @@ body, html {
 }
 
 span {
-    color:darkgreen;
-    position:relative;
+   
+    color: darkgreen;
 }
 
 #zdalna {
@@ -26,56 +26,6 @@ span {
     font-size: 1.1rem;
 }
 
-.toolpic {
-    width: 400px;
-    height: 245px;
-    background-color: black;
-    display:none;
-    
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    
-    z-index: 2;
-    border: 1px solid yellow;
-    
-}
-
-.toolpic:before {
-    position: absolute;
-    content: '';
-    top: -3.1rem;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border: 50px solid yellow;
-    border-bottom-color: transparent;
-    opacity: 0.5;
-    border-right-color: transparent;
-    transform: translate(-50%) rotatez(45deg) ;
-    z-index: -1;
-   
-}
-
-
- span:hover  .toolpic {
-     
-     position:absolute;
-     display:block;
-     top: 6rem;
-     right: -6rem;;
-     
-}
-
-.cart:nth-child(1) span:hover .toolpic {
-    background-color:aqua;
-    background-image: url(img/useme_opt.png);
-}
-
-.cart:nth-child(2) span:hover .toolpic {
-    background-color:aqua;
-    background-image: url(img/outwork_opt.png);
-}
 
 h1 {
     padding: 2rem;
@@ -174,6 +124,62 @@ footer a {
     color:darkred;
     font-style: oblique;
     font-weight: bold;
+}
+
+.cart:nth-child(1) p span, .cart:nth-child(2) p span {
+    position: relative;
+    color:wheat;
+}
+
+.somethis {
+    
+    width: 400px;
+    height: 245px;
+    background-color: black;
+    display: none;
+    background-image: url(img/useme_opt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    z-index: 2;
+    border: 1px solid yellow;
+    
+}
+
+.somethis:before {
+    position: absolute;
+    content: '';
+    top: -3.1rem;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 50px solid yellow;
+    border-bottom-color: transparent;
+    opacity: 0.5;
+    border-right-color: transparent;
+    transform: translate(-50%) rotatez(45deg);
+    
+   
+}
+
+
+span:hover .somethis {
+    position: absolute;
+     display:block;
+     top: 6rem;
+     right: -6rem;
+     
+}
+
+.cart:nth-child(1) span:hover .somethis {
+    background-color:aqua;
+    background-image: url(img/useme_opt.png);
+}
+
+.cart:nth-child(2) span:hover .somethis {
+    background-color:aqua;
+    background-image: url(img/outwork_opt.png);
 }
 
 @supports (display: flex) {
