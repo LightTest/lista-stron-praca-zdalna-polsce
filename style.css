@@ -126,9 +126,16 @@ footer a {
     font-weight: bold;
 }
 
+/*
 .cart:nth-child(1) p span, .cart:nth-child(2) p span {
     position: relative;
     
+} */
+
+.cart div:nth-child(1) {
+    color: blue;
+    position: relative;
+    display: inline-block;
 }
 
 .somethis {
@@ -164,20 +171,21 @@ footer a {
 }
 
 
-span:hover .somethis {
+.cart div:nth-child(1):hover .somethis {
     position: absolute;
      display:block;
      top: 6rem;
-     right: -6rem;
+     left: 50%;
+    transform: translate(-50%);
      
 }
 
-.cart:nth-child(1) span:hover .somethis {
+.cart div:nth-child(1):hover .somethis {
     background-color:aqua;
     background-image: url(img/useme_opt.png);
 }
 
-.cart:nth-child(2) span:hover .somethis {
+.cart:nth-child(2) div:nth-child(1):hover .somethis {
     background-color:aqua;
     background-image: url(img/outwork_opt.png);
 }
