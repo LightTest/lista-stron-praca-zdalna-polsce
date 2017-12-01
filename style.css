@@ -190,6 +190,12 @@ footer a {
     background-image: url(img/outwork_opt.png);
 }
 
+.cart:nth-child(3) div:nth-child(1):hover .somethis {
+    height: 334px;
+    background-color:aqua;
+    background-image: url(img/freelanceria_opt.png);
+}
+
 @supports (display: flex) {
     .main {
         display: flex;
