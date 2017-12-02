@@ -197,7 +197,7 @@ footer a {
 }
 
 .cart:nth-child(4) div:nth-child(1):hover .somethis {
-    height: 334px;
+    height: 305px;
     background-color:aqua;
     background-image: url(img/zlece_opt.png);
 }
@@ -377,7 +377,7 @@ footer a {
 }
 
 .cart:nth-child(34) div:nth-child(1):hover .somethis {
-    height: 334px;
+    height: 302px;
     background-color:aqua;
     background-image: url(img/absolvent_opt.png);
 }
